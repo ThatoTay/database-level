@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ICON/Logo.png" type="image/x-icon">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/STYLE.css">
+    <script src="../JS/APP.js"></script>
+</head>
+<body>
+  <header>
+    <link href="https://fonts.googleapis.com/css?family=Psoppins%26display=swap" rel="stylesheet">
+
+    <table>
+      <tr>
+      <td><button class="nav-button" onclick="goBack()">Go Back</button></td>
+   
+     <td> <a href=""><img src="../icon/home2.jpg" class="home"></a> </td>
+      </tr>
+</table>
+<br/><br/><br/><br/>
+
+<img src="../img/disply.jpg" class="first" >
+  </header>
+  <body style="background-color: #d60505;">
+    <h2>Fill in the following information to <span>LOG IN</span> as <span>ADMINISTRATOR</span></h2>
+    <br/><br/><br/>
+<div class="body-content">
+  
+  <div class="module">
+   
+    <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+      <div class="alert alert-error"></div>
+     
+      <input type="email" placeholder="Enter your Email/cell phone" name="email" required />
+      <input type="password" placeholder="Enter your Password" name="password" autocomplete="new-password" required />
+      <input type="password" placeholder="Hint: Answer" name="password" autocomplete="new-password" required />
+      <p style="color: white;">Forgot password <span><a href="Change.html" >click here!</a></span></p>
+    
+      <input type="submit" value="SUBMIT" name="register" class="btn btn-block btn-primary" />
+    </form>
+  </div>
+</div>
+
+<br/><br/><br/>
+
+</body>
+</html>

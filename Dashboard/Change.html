@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../ICON/Logo.png" type="image/x-icon">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../CSS/decor.css">
+    <script src="../JS/APP.js"></script>
+    <script src="https://kit.fontawesome.com/51bc2aa7cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <table>
+      <tr>
+      <td><button class="nav-button" onclick="goBack()">Go Back</button></td>
+   
+     <td> <a href="../Index.html"><img src="../icon/home2.jpg" class="home"></a> </td>
+      </tr>
+    </table>
+  </header>
+  <div id="box">
+    <form id="myform-search" method="post" autocomplete="off">
+    <h1>Change Password <span>choose a good one!</span></h1>
+    <form>
+      <p>
+        <input type="password" value="" placeholder="Enter Password" id="p" class="password">
+        <button class="unmask" type="button"></button>
+      </p>
+      <p>     
+        <input type="password" value="" placeholder="Confirm Password" id="p-c" class="password">
+        <button class="unmask" type="button"></button>
+      <div id="strong"><span></span></div>
+      <div id="valid"></div>
+      <small>Must be 6+ characters long and contain at least 1 upper case letter, 1 number, 1 special character</small>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

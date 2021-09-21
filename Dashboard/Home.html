@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../ICON/Logo.png" type="image/x-icon">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../CSS/decor.css">
+    <script src="../JS/APP.js"></script>
+    <script src="https://kit.fontawesome.com/51bc2aa7cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+   
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <h1>HI ADMIN!</h1>
+      <a href="../Index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="Dashboard.html" ><i class="fas fa-book-open"></i> Dashboard</a>
+      <a href="Alert.html"><i class="far fa-bell"></i> Alert</a>
+      <a href="Members.html"><i class="fas fa-users"></i> Members</a> 
+      <a href="Blood donors.html"><i class="fas fa-user-friends"></i> Blood donors</a>
+      <a href="Blood requesters.html"><i class="fas fa-users-cog"></i> Blood requesters</a>
+      <br/>  <br/> 
+
+      <a href="Login1.html" class="buttonof"><i class="fas fa-power-off smallest"> LOG OUT</i></a>
+    </div>
+    
+ 
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      <header>
+     <table>
+       <tr>
+         <td>  <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()"><i class="fas fa-bars small"></i></span></td>
+         <td>
+          <div class="topnav">
+           
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+         </td>
+         <td><i class="far fa-bell small"></i></td>
+
+         <td><img src="../img/flag.png"  width="53px" height="32px" ></td>
+
+         <td><a href="Settings.html"><i class="fas fa-cog small" >Settings</i></a></td>
+       </tr>
+
+     </table>
+      </header>
+     <p class="paragraph"><b>WELCOME BACK ADMINISTRATOR!</b></p>
+      <img style="float: left; margin: 0px 10px 30px 80px;" src="../blood/sit.gif" width="550px" height="390px" />
+      <br/> <br/>
+      <p class="paragraph1">PLEASE CHECK FOR NEW <br/>
+    DONORS AND NEW <br/>
+    REQUESTERS
+    </p>
+    <img style="float: right; margin: 0px 30px 30px 0px;" src="../blood/alert.gif" width="350px" height="290px" />
+   
+  </header>
+</div>
+</body>
+</html>
